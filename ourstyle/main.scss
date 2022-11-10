@@ -70,20 +70,6 @@
     height: 500px;
   }
 
-  .section-breadcrumbs{
-    margin-top: 20px;
-    margin-left: 20px;
-    .breadcrumb-item{
-      a{
-        color: grey;
-        text-decoration: none;
-      }
-      :hover{
-        color: #99c5f2;
-      }
-    }
-  }
-
   .section-content {
     display: flex;
     flex-direction: column;
@@ -93,75 +79,6 @@
     p {
       width: 60%;
       text-align: center;
-    }
-    .line{
-      width:30px;
-      height:5px;
-      background-color:lightgrey;
-      border-radius: 10px;
-    }
-
-
-    .person-left{
-      display: flex;
-      margin-left: 100px;
-      margin-top: 50px;
-      img{
-        height: auto;
-      }
-      .text{
-        margin-left: 100px;
-        margin-top: 150px;
-
-      }
-      p{
-        text-align: justify;
-      }
-    }
-    .person-right{
-      display: flex;
-      margin-right: 100px;
-      margin-top: 50px;
-      img{
-        height: auto;
-      }
-      .text{
-        margin-left: 100px;
-        margin-top: 150px;
-      }
-      p{
-        text-align: justify;
-      }
-    }
-
-
-    .summary{
-      margin-top: 50px;
-      display: flex;
-      width: 88%;
-      table{
-        tr{
-          vertical-align:middle;
-        }
-      }
-    }
-
-    .row{
-      margin-top: 50px;
-      width: 88%;
-      .col{
-        p{
-          text-align: left;
-        }
-        .card{
-          background-color: #f0f4f9;
-          border: none;
-          a{
-            color: #74b4f5;
-            text-decoration: none;
-          }
-        }
-      }
     }
   }
 
