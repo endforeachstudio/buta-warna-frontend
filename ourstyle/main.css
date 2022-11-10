@@ -135,6 +135,8 @@
 }
 .container-content .section-content .person-left img {
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container-content .section-content .person-left .text {
   margin-left: 100px;
@@ -150,6 +152,8 @@
 }
 .container-content .section-content .person-right img {
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .container-content .section-content .person-right .text {
   margin-left: 100px;
@@ -231,5 +235,11 @@
   }
   .wrapper .container-content .section-content .service-about .content {
     width: 80%;
+  }
+  .wrapper .container-content .section-content .person-left {
+    flex-direction: column;
+  }
+  .wrapper .container-content .section-content .person-right {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */

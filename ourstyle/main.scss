@@ -146,6 +146,7 @@
       margin-top: 50px;
       img {
         height: auto;
+        object-fit: cover;
       }
       .text {
         margin-left: 100px;
@@ -161,6 +162,7 @@
       margin-top: 50px;
       img {
         height: auto;
+        object-fit: cover;
       }
       .text {
         margin-left: 100px;
@@ -278,6 +280,12 @@
           .content {
             width: 80%;
           }
+        }
+        .person-left{
+          flex-direction: column;
+        }
+        .person-right{
+          flex-direction: column;
         }
       }
     }
